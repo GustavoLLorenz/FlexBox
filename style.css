@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+
+  border: 1px solid black;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+  
+
+}
+
+.tribetalk{
+  display: flex;
+  color: white;
+  
+}
+
+.centroTexto{
+  display: flex;
+  justify-content: center;
+}
+
+.sectionDois{
+    margin-left: 37%;
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+    width: 500px;
+    height: 600px;
+}
+
+.segundaLinha{
+  border: 1px solid black;
+  height: 200px;
+}
+
+.foot{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
